@@ -1,0 +1,28 @@
+# .github/workflows/metrics.yml in the mochiicakes/mochiicakes repo
+# Generates metrics.languages.svg once a day, counting private repositories.
+# Needs a repository secret named METRICS_TOKEN (a personal access token you create).
+name: Metrics
+on:
+  schedule:
+    - cron: "17 3 * * *"   # once a day
+  workflow_dispatch:        # manual "Run workflow" button
+permissions:
+  contents: write           # only to commit the SVG back to this repo
+jobs:
+  languages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@v3.34    # pinned release; check for a newer one before first run
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          filename: metrics.languages.svg
+          base: ""                        # only the languages card, nothing else
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, scss, dockerfile, shell, makefile
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage
+          # if client repos are in a client org or you're a collaborator, uncomment:
+          # repositories_affiliations: owner, collaborator, organization_member
+          # in-depth mode stays OFF: it clones repos onto the runner,
+          # which isn't appropriate for client code
