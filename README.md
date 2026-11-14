@@ -31,8 +31,8 @@
 - 📷 **[viso-case-study](https://github.com/mochiicakes/viso-case-study)** · ten live-camera filters, each explained layer by layer
 - 🎨 **[mochii-portfolio](https://github.com/mochiicakes/mochii-portfolio)** · paint-to-reveal intro, WebGL water light, recruiter + casual modes
 - 📸 **[photo-bot](https://github.com/mochiicakes/photo-bot)** · a virtual photobooth in the browser · [live ✧](https://photo-bot-kappa.vercel.app)
-- 🔒 **client works (private)** · backend, admin dashboard and customer app for a delivery platform; n8n automation pipelines
-
+- 🔒 **client works (private)** · backend, admin dashboard and customer app for a delivery platform; n8n automation pipelines (lives in n8n + private repos that unfortunately won't show on my graph)
+- 
 ### ✿ most used languages ✿
 
 <div align="center">
