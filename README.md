@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=VT323&size=26&duration=2800&pause=900&color=FF5FA2&center=true&vCenter=true&width=540&lines=(%EF%BE%89%E2%97%95%E3%83%AE%E2%97%95)%EF%BE%89*%3A%EF%BD%A5%EF%BE%9F%E2%9C%A7+hiii+i'm+michaella!;full-stack+TypeScript+%E2%9C%BF+React+%E2%9C%BF+Postgres;i+write+tests+%E2%80%94+yes+really+(%EF%BD%A1%E2%80%A2%CC%80%E1%B4%97-)%E2%9C%A7;n8n+%2B+LLM+automation+%E2%8B%86%EF%BD%A1%C2%B0%E2%9C%A9" />
+<img src="https://readme-typing-svg.demolab.com?font=VT323&size=26&duration=2800&pause=900&color=FF5FA2&center=true&vCenter=true&width=540&lines=(%EF%BE%89%E2%97%95%E3%83%AE%E2%97%95)%EF%BE%89*%3A%EF%BD%A5%EF%BE%9F%E2%9C%A7+haloo!+i'm+Mochii!;full-stack+TypeScript+%E2%9C%BF+React+%E2%9C%BF+Postgres;i+write+tests+%E2%80%94+yes+really+(%EF%BD%A1%E2%80%A2%CC%80%E1%B4%97-)%E2%9C%A7;n8n+%2B+LLM+automation+%E2%8B%86%EF%BD%A1%C2%B0%E2%9C%A9" />
 
 ✦ ━━━━━━━━ ･ﾟ✧ ━━━━━━━━ ✦
 
@@ -39,6 +39,18 @@
 
 <!-- generated daily by .github/workflows/metrics.yml; counts private repos -->
 <img src="metrics.languages.svg" alt="Most used languages, including private repositories" />
+
+</div>
+
+### ✿ live from the commit arena ✿
+
+<div align="center">
+
+<!-- generated daily by .github/workflows/caster.yml from my contribution calendar -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="caster-dark.svg" />
+  <img src="caster.svg" width="100%" alt="My contribution graph as a live esports broadcast, with a caster ticker calling out my best day and streaks" />
+</picture>
 
 </div>
 

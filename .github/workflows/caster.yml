@@ -1,0 +1,29 @@
+# .github/workflows/caster.yml
+# Regenerates caster.svg + caster-dark.svg ("Shoutcaster mode" contribution graph) once a day.
+# Reuses the METRICS_TOKEN secret; only daily contribution counts are read.
+name: Caster
+on:
+  schedule:
+    - cron: "47 3 * * *"   # once a day, 30 min after Metrics so they don't push at the same time
+  workflow_dispatch:        # manual "Run workflow" button
+permissions:
+  contents: write           # only to commit the SVGs back to this repo
+jobs:
+  caster:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/caster.mjs
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add caster.svg caster-dark.svg
+          git diff --cached --quiet || git commit -m "Update caster graph"
+          git pull --rebase
+          git push
