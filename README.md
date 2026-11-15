@@ -54,9 +54,11 @@
 
 </div>
 
-<table align="center" width="940">
+<br>
+
+<table align="center">
 <tr>
-<td valign="top" width="50%">
+<td valign="top" width="440">
 
 ### ✿ frameworks & libraries ✿
 
@@ -75,7 +77,7 @@
 - 🌀 indulging in LOTS of hobbies
 
 </td>
-<td valign="middle" align="center" width="50%">
+<td valign="middle" align="center" width="440">
 
 <img src="dist/git-pal.svg" width="400" height="340" alt="My git-pal" />
 
