@@ -54,7 +54,7 @@
 
 </div>
 
-<table align="center">
+<table align="center" width="880">
 <tr>
 <td valign="top" width="50%">
 
