@@ -54,33 +54,34 @@
 
 </div>
 
+<table>
+<tr>
+<td valign="top" width="50%">
+
 ### ✿ frameworks & libraries ✿
 
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,express,django,threejs,electron,tailwind,graphql&theme=light" alt="React, Next.js, Express, Django, Three.js, Electron, Tailwind CSS, GraphQL" />
-
-</div>
+<img src="https://skillicons.dev/icons?i=react,nextjs,express,django,threejs,electron,tailwind,graphql&perline=4&theme=light" alt="React, Next.js, Express, Django, Three.js, Electron, Tailwind CSS, GraphQL" />
 
 ### ✿ platforms & tools ✿
 
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=vercel,gcp,firebase,supabase,postgres,prisma,githubactions,notion&theme=light" alt="Vercel, Google Cloud, Firebase, Supabase, PostgreSQL, Prisma, GitHub Actions, Notion" />
+<img src="https://skillicons.dev/icons?i=vercel,gcp,firebase,supabase,postgres,prisma,githubactions,notion&perline=4&theme=light" alt="Vercel, Google Cloud, Firebase, Supabase, PostgreSQL, Prisma, GitHub Actions, Notion" />
 
 <sub>also: n8n · Baserow · Microsoft Graph · Claude, Perplexity and Gemini APIs</sub>
-
-</div>
-
-<!-- ✦ reserved: portfolio preview GIF goes here once mochii-portfolio is deployed (see PROFILE_SETUP.md §5) ✦ -->
-
-<!-- ✦ reserved: Commit Critter pet goes here once it's released ✦ -->
 
 ### ♡ when i'm not coding ♡
 
 - 🎙️ esports host and shoutcaster since 2021
 - 📱 making content
 - 🌀 indulging in LOTS of hobbies
+
+</td>
+<td valign="middle" align="center" width="50%">
+
+<img src="dist/git-pal.svg" width="400" height="340" alt="My git-pal" />
+
+</td>
+</tr>
+</table>
 
 <div align="center">
 
